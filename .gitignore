@@ -20,5 +20,33 @@ modules.order
 *.jou
 *.log
 *.str
+*.xpr
+fpga.cache/
+fpga.gen/
+fpga.hw/
+fpga.runs/
+fpga.srcs/
 
 tags
+
+# Gtkwave
+*.gtkw
+
+# Icarus Verilog
+iverilog_dump.v
+*.fst
+
+# Verdi
+verdiLog/
+novas.conf
+novas.rc
+
+# Generated files by creating Vivado project
+create_project.tcl
+update_config.tcl
+defines.v
+
+sim_build/
+log
+*.xml
+
